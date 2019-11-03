@@ -8,17 +8,17 @@ Example SOAP application using Spring Boot + Gradle + jaxB  gradle plugin
 - InteliJ IDE;
 - Postman (only for tests)
 
-### Steps to run
+## Steps to run
 
 1. Clone this project;
 2. run ```./gradlew bootRun```
 3. In browser access ```http://localhost:8080/ws/countries.wsdl``` and ```http://localhost:8080/ws/sales.wsdl``` to see WSDL info;
 
-### Now What? Let's do some tests
+## Now What? Let's do some tests
 
 > I've used Postman (https://www.getpostman.com/), but you can use whatever you want, like the SoapUi. So i'll show how i made the tests in Postman.
 
-#### Test 1
+### Test 1
 
 In Postman i set:
 
@@ -65,7 +65,7 @@ Expected Response:
 </SOAP-ENV:Envelope>
 ```
 
-#### Test 2
+### Test 2
 
 In Postman i set:
 
