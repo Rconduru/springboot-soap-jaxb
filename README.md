@@ -24,8 +24,8 @@ In Postman i set:
 
 - Method POST;
 - URL ```http://localhost:8080/ws```;
-- Headers: ~Content-Type~ = text/xml
-- Body: raw XML;
+- Headers: **Content-Type** = text/xml
+- Body: **raw** XML;
 - On Body:
 ```
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
@@ -71,8 +71,8 @@ In Postman i set:
 
 - Method POST;
 - URL ```http://localhost:8080/ws```;
-- Headers: ~Content-Type~ = text/xml
-- Body: raw XML;
+- Headers: **Content-Type** = text/xml
+- Body: **raw** XML;
 - On Body:
 ```
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
